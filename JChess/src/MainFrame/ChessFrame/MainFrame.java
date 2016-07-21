@@ -42,17 +42,7 @@ public class MainFrame extends JFrame {
     }
     public void start_Again() {
         Mainpanel.start_Again();
-        
-        
-        
-        
         contentPane.add(Mainpanel);
-        
-        
-        
-        
-        
-        
     }
     
     public void start_As_Server() {
