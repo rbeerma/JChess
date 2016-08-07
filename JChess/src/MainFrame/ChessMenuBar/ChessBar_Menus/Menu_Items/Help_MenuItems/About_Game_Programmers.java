@@ -13,7 +13,7 @@ public class About_Game_Programmers extends JMenuItem
     {
     	this.setEnabled(false);
     	
-        setText("About us");
+        setText("About the team");
     }
     
 }
