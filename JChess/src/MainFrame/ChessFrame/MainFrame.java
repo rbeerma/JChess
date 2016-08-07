@@ -1,5 +1,3 @@
-
-
 package MainFrame.ChessFrame;
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -21,7 +19,12 @@ import javax.swing.JScrollPane;
 
 public class MainFrame extends JFrame {
     
-    
+    private final Chess_MainMenuBar  MyChessBar;
+    public final ToolPanel Toolpanel=new ToolPanel();
+    private final StatusPanel Satuspanel=new StatusPanel();
+    private final MainPanel Mainpanel=new MainPanel(Toolpanel,Satuspanel);
+    private final ChatPanel Chatpanel=new ChatPanel();
+    private  Container contentPane=getContentPane();
     
     public MainFrame() {
         setTitle("Chess Game");
@@ -40,6 +43,7 @@ public class MainFrame extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
     }
+    
     public void start_Again() {
         Mainpanel.start_Again();
         contentPane.add(Mainpanel);
@@ -53,6 +57,7 @@ public class MainFrame extends JFrame {
         setTitle("Server player");
         
     }
+    
     public void start_As_Client() {
         
         Mainpanel.start_As_Client(MyChessBar.getIpAddress(),MyChessBar.getPortnumber(),Chatpanel);
@@ -61,15 +66,7 @@ public class MainFrame extends JFrame {
         contentPane.add(Mainpanel);
         setTitle("Client player");
     }
-    
-    private final Chess_MainMenuBar  MyChessBar;
-    public final ToolPanel Toolpanel=new ToolPanel();
-    private final StatusPanel Satuspanel=new StatusPanel();
-    
-    private final MainPanel Mainpanel=new MainPanel(Toolpanel,Satuspanel);
-    private final ChatPanel Chatpanel=new ChatPanel();
-    private  Container contentPane=getContentPane();
-    
+
 }
 
 

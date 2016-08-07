@@ -1,13 +1,11 @@
-
 package MainFrame.ChessFrame.players;
 
-
 import MainFrame.ChessFrame.players.Pieces.Castle;
-import MainFrame.ChessFrame.players.Pieces.Elephent;
+import MainFrame.ChessFrame.players.Pieces.Elephant;
 import MainFrame.ChessFrame.players.Pieces.Horse;
 import MainFrame.ChessFrame.players.Pieces.Queen;
-import MainFrame.ChessFrame.players.Pieces.Solider;
-import MainFrame.ChessFrame.players.Pieces.king;
+import MainFrame.ChessFrame.players.Pieces.Soldier;
+import MainFrame.ChessFrame.players.Pieces.King;
 import java.awt.Button;
 import java.awt.Canvas;
 import java.awt.Checkbox;
@@ -73,8 +71,7 @@ import java.net.URL;
 import java.util.Map;
 import java.util.Properties;
 
-
-public class player1 {
+public class Player1 {
     
     /** Creates a new instance of player1 */
     public Castle WC1;
@@ -82,34 +79,33 @@ public class player1 {
     public Horse WH1;
     public Horse WH2;
     public Queen WQ;
-    public Elephent WE1;
-    public Elephent WE2;
-    public Solider[] WS=new Solider[8];
-    public king WK;
+    public Elephant WE1;
+    public Elephant WE2;
+    public Soldier[] WS=new Soldier[8];
+    public King WK;
     private int inHand=-1;
     private boolean kingischeck=false;
     private int choosenOne;
     String Color="white";
     private Point other;
     int ate_to_protect;
-    
-    
-    
-    public player1() {
+
+    public Player1() {
         String fileSeparator = new String(System.getProperty("file.separator"));
         WC1=new Castle("src" + fileSeparator + "Icons" + fileSeparator + "Player1Icons" +fileSeparator + "wr.gif",8,8);
         WC2=new Castle("src" + fileSeparator + "Icons" + fileSeparator + "Player1Icons" +fileSeparator + "wr.gif",1,8);
         WH1=new Horse("src" + fileSeparator + "Icons" + fileSeparator + "Player1Icons" +fileSeparator + "wn.gif",2,8);
         WH2=new Horse("src" + fileSeparator + "Icons" + fileSeparator + "Player1Icons" +fileSeparator + "wn.gif",7,8);
-        WE1=new Elephent("src" + fileSeparator + "Icons" + fileSeparator + "Player1Icons" +fileSeparator + "wb.gif",3,8);
-        WE2=new Elephent("src" + fileSeparator + "Icons" + fileSeparator + "Player1Icons" +fileSeparator + "wb.gif",6,8);
+        WE1=new Elephant("src" + fileSeparator + "Icons" + fileSeparator + "Player1Icons" +fileSeparator + "wb.gif",3,8);
+        WE2=new Elephant("src" + fileSeparator + "Icons" + fileSeparator + "Player1Icons" +fileSeparator + "wb.gif",6,8);
         WQ=new Queen("src" + fileSeparator + "Icons" + fileSeparator + "Player1Icons" +fileSeparator + "wq.gif",4,8);
-        WK=new king("src" + fileSeparator + "Icons" + fileSeparator + "Player1Icons" +fileSeparator + "wk.gif",5,8);
+        WK=new King("src" + fileSeparator + "Icons" + fileSeparator + "Player1Icons" +fileSeparator + "wk.gif",5,8);
         int j=1;
         for(int  i=0;i<=7;i++,j++) {
-            WS[i]=new Solider("src" + fileSeparator + "Icons" + fileSeparator + "Player1Icons" +fileSeparator + "wp.gif",j,7);
+            WS[i]=new Soldier("src" + fileSeparator + "Icons" + fileSeparator + "Player1Icons" +fileSeparator + "wp.gif",j,7);
         }
     }
+    
     public Point returnPostion(int i) {
         
         switch(i) {
@@ -133,6 +129,7 @@ public class player1 {
         }
         return new Point(-1,-1);
     }
+    
     public Point returnOldPostion(int i) {
         
         switch(i) {
@@ -156,6 +153,7 @@ public class player1 {
         }
         return new Point(-1,-1);
     }
+    
     public Image returnIconImage(int i) {
         
         switch(i) {
@@ -183,6 +181,7 @@ public class player1 {
         }
         return null;
     }
+    
     public void changePostion(Point newPoint,int i) {
         switch(i) {
             
@@ -205,6 +204,7 @@ public class player1 {
         }
         
     }
+    
     public void changePostionToOld(Point newPoint,int i) {
         switch(i) {
             
@@ -249,6 +249,7 @@ public class player1 {
             case 32:  WS[7].setPixels(newPixelX,newPixelY);break;
         }
     }
+    
     public Point getPixelPoint(int i) {
         choosenOne=i;
         switch(choosenOne) {
@@ -272,6 +273,7 @@ public class player1 {
         }
         return null;
     }
+    
     public boolean checkthemove(Point newP,int i) {
         choosenOne=i;
         switch(choosenOne) {
@@ -295,6 +297,7 @@ public class player1 {
         }
         return false;
     }
+    
     public boolean setSeentoSiliders(int i,Point P) {
         switch(i) {
             case 25:   return  WS[0].setSeenbychecking(P,"white");
@@ -308,6 +311,7 @@ public class player1 {
         }
         return false;
     }
+    
     public boolean returnsoliderSeen(int i) {
         switch(i) {
             case 25:   return  WS[0].returnMyseen();
@@ -321,10 +325,9 @@ public class player1 {
         }
         return false;
     }
+    
     public boolean checktheWay(Point newP,Point postionFromOthers,int i) {
         switch(i) {
-            
-            
             case 17:return WC1.PieceInMYway(newP.x,newP.y,postionFromOthers);
             case 18:return WC2.PieceInMYway(newP.x,newP.y,postionFromOthers);
             case 21: return WE1.PieceInMYway(newP.x,newP.y,postionFromOthers);
@@ -342,6 +345,7 @@ public class player1 {
         }
         return false;
     }
+    
     public boolean Killedpiec(int i) {
         Point out=new Point(13,13);
         switch(i) {
@@ -366,6 +370,7 @@ public class player1 {
         
         return false;
     }
+    
     public boolean checKing(Point p1,Point p2,int i) {
         switch(i) {
             
@@ -388,46 +393,39 @@ public class player1 {
         }
         return false;
     }
-    
-    
-    
+
     public int returnChosen() {
         return choosenOne;
     }
+    
     public void SetInhand(int i ) {
         inHand=i;
     }
+    
     public int GetInhand() {
         return inHand;
     }
+    
     public boolean CanMove(int x,int y) {
         return true;
     }
+    
     public void checkKing(boolean newkingcheck) {
         kingischeck=newkingcheck;
     }
+    
     public boolean returncheckKing() {
-        
-        
         return kingischeck;
     }
     
-    public boolean if_MyKing_In_check(player2 Black) {
+    public boolean if_MyKing_In_check(Player2 Black) {
         boolean isCheckmate=false;
         boolean flag=false;
-        
-        
-        
-        
-        
-        
+
         return false;
     }
-    public boolean Check_Mate_GameOver(player2 Enemy) {
-        
-        
-        
-        
+    
+    public boolean Check_Mate_GameOver(Player2 Enemy) {
         if(! KingGenerate_moves(Enemy)) {
             
             inHand=-1;
@@ -476,17 +474,14 @@ public class player1 {
         
         inHand=-1;
         return true;
-        
-        
-        
-        
+ 
     }
-    public boolean  see_king_Check(player2 Black) {
+    
+    public boolean  see_king_Check(Player2 Black) {
         
         Point My_King_Postion=WK.returnPostion();
         boolean flag=false;
-        
-        
+
         //////////    Start Checking the King ////////////
         for(int i=1;i<17;i++) {
             if(i<9) {
@@ -501,8 +496,7 @@ public class player1 {
                                 //Means there is something in the Way so can't move'
                                 
                                 flag=false;
-                                
-                                
+  
                             }
                         }
                         
@@ -543,8 +537,7 @@ public class player1 {
         
         return true;
     }
-    
-    
+        
     public boolean Pice_already_there(Point newP) {
         Point samePostion;
         for(int i=17;i<=32;i++) {
@@ -569,7 +562,8 @@ public class player1 {
         
         return true;
     }
-    public boolean Pice_already_there_from_enemy(Point newP,player2 enemy) {
+    
+    public boolean Pice_already_there_from_enemy(Point newP,Player2 enemy) {
         Point samePostion;
         for(int i=1;i<=16;i++) {
             samePostion=enemy.returnPostion(i);
@@ -583,7 +577,8 @@ public class player1 {
         
         return true;
     }
-    public int Get_Pice_already_there_from_enemy(Point newP,player2 enemy) {
+    
+    public int Get_Pice_already_there_from_enemy(Point newP,Player2 enemy) {
         Point samePostion;
         for(int i=1;i<=16;i++) {
             samePostion=enemy.returnPostion(i);
@@ -597,9 +592,8 @@ public class player1 {
         
         return -1;
     }
-    
-    
-    public boolean KingGenerate_moves(player2 enemy) {
+
+    public boolean KingGenerate_moves(Player2 enemy) {
         boolean somthing_killed=false;
         Point Oldp=new Point();
         
@@ -844,7 +838,7 @@ public class player1 {
         
     }
     
-    public boolean CastleGenerate_moves(player2 enemy,Castle WC) {
+    public boolean CastleGenerate_moves(Player2 enemy,Castle WC) {
         boolean somthing_killed=false;
         Point Oldp1=new Point();
         
@@ -939,7 +933,7 @@ public class player1 {
         return true;
     }
     
-    public  boolean ElephentGenerate_moves(player2 enemy,Elephent WE) {
+    public  boolean ElephentGenerate_moves(Player2 enemy,Elephant WE) {
         boolean somthing_killed=false;
         Point Oldp1=new Point();
         Point PlaceCheck=new Point();
@@ -1027,7 +1021,7 @@ public class player1 {
         return true;
     }
     
-    public boolean HosreGenerate_moves(player2 enemy,Horse WH) {
+    public boolean HosreGenerate_moves(Player2 enemy,Horse WH) {
         Point oldp1=new Point();
         boolean somthing_killed=false;
         oldp1=WH.returnPostion();
@@ -1252,7 +1246,7 @@ public class player1 {
         return true;
     }
     
-    public boolean QueenGenerate_moves(player2 enemy) {
+    public boolean QueenGenerate_moves(Player2 enemy) {
         boolean somthing_killed=false;
         
         Point Oldp1=new Point();
@@ -1405,7 +1399,8 @@ public class player1 {
         return true;
         
     }
-    public boolean SoliderGenerate_moves(player2 enemy, Solider Sold) {
+    
+    public boolean SoliderGenerate_moves(Player2 enemy, Soldier Sold) {
         Point Oldp1=new Point();
         Oldp1=Sold.returnPostion();
         Point PlaceCheck=new Point();
@@ -1477,9 +1472,8 @@ public class player1 {
         Sold.setPoint(Oldp1);
         return true;
     }
-    
-    
-    public boolean Check_The_Way_to_Postion(player2 enemy,Point newP) {
+
+    public boolean Check_The_Way_to_Postion(Player2 enemy,Point newP) {
         boolean flag=false;
         
         
@@ -1500,7 +1494,8 @@ public class player1 {
         
         
     }
-    public boolean kill_to_protect_king(player2 enemy,Point newP) {
+    
+    public boolean kill_to_protect_king(Player2 enemy,Point newP) {
         
         for(int i=1;i<17;i++) {
             

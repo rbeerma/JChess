@@ -1,5 +1,3 @@
-
-
 package MainFrame.ChessFrame.players.Pieces;
 
 import java.awt.Image;
@@ -13,80 +11,93 @@ public class Castle {
     private int pixelX,pixelY;
     private Point pixelPoint=new Point();
     private boolean havelife=true;
-    private pieceIcon PieceIcon;
+    private PieceIcon PieceIcon;
     private Point p=new Point();
     private Point old=new Point();
+    
     public Castle(String NameIcon,int  startX,int startY) {
         
-        PieceIcon=new pieceIcon(NameIcon);
+        PieceIcon=new PieceIcon(NameIcon);
         
         X=startX;
         Y=startY;
         p.x=X;
         p.y=Y;
     }
+    
     public Image returnPieceImage() {
         return PieceIcon.returnPieceIcon();
     }
+    
     public int  returnX() {
         X=p.x;
         return X;
     }
+    
     public void setPixels(int newpixelX,int newpixelY) {
         pixelPoint.x=newpixelX;
         pixelPoint.y=newpixelY;
     }
+    
     public int getPixelX() {
         return pixelX;
     }
+    
     public int getPixelY() {
         return pixelY;
     }
+    
     public Point getpixelPoint() {
         return  pixelPoint;
     }
-    
-    
+
     public int  returnY() {
         Y=p.y;
         return Y;
     }
+    
     public void toOld(Point Old) {
         
         p.x=Old.x;
         p.y=Old.y;
         
     }
+    
     public void setPoint(Point newPoint) {
         old.x=p.x;
         old.y=p.y;
         X=p.x=newPoint.x;
         Y=p.y=newPoint.y;
     }
+    
     public void setX(int newX) {
         X=newX;
         p.x=newX;
     }
+    
     public void setY(int newY) {
         Y=newY;
         p.y=newY;
     }
+    
     public Point returnOld() {
         return old;
     }
+    
     public Point returnPostion() {
-        
-        
         return (Point)p.clone();
     }
+    
     public boolean returnLife() {
         return  havelife ;
     }
+    
     public boolean Inthispostion(int x,int y) {
         if(p.x==x&&p.y==y)
             return true;
         return false;
     }
+    
     public boolean Canmove(int x, int y) {
         if(((y==Y)&&(x>(X)||(x<(X))))) {
             return true;
@@ -100,6 +111,7 @@ public class Castle {
         
         
     }
+    
     public boolean PieceInMYway(int x, int y,Point othersPostion) {
         int j=y;
         int i=x;
@@ -143,9 +155,9 @@ public class Castle {
             }
         }
         return false;
-        
-        
+
     }
+    
     public boolean checkKing(int x, int y,Point othersPostion) {
         int j=y;
         int i=x;
@@ -189,14 +201,13 @@ public class Castle {
             }
         }
         return false;
-        
-        
+       
     }
-    
-    
+
     public Point GeneratePossible_Moves() {
         return new Point();
     }
+    
     public String Tell_me() {
         return "Castle= ("+p.x+','+p.y+")";
     }

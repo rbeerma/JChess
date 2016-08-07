@@ -15,11 +15,11 @@ public class Horse {
     private boolean havelife=true;
     private Point old=new Point();
     
-    private pieceIcon PieceIcon;
+    private PieceIcon PieceIcon;
     private Point p=new Point();
     public Horse(String NameIcon,int startX,int startY) {
         
-        PieceIcon=new pieceIcon(NameIcon);
+        PieceIcon=new PieceIcon(NameIcon);
         
         X=startX;
         Y=startY;

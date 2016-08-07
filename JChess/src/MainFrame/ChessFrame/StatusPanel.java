@@ -9,6 +9,8 @@ import javax.swing.border.LineBorder;
 
 
 public class StatusPanel extends JPanel {
+    private JLabel statusLabel=new JLabel();
+    private LineBorder LabelBorder=new LineBorder(Color.BLACK.brighter(),2);
     
     /** Creates a new instance of StatusPanel */
     public StatusPanel() {
@@ -24,10 +26,9 @@ public class StatusPanel extends JPanel {
         statusLabel.setForeground(Color.RED.brighter());
         statusLabel.setBorder(LabelBorder);
         add(statusLabel);
-        
-        
-        
+
     }
+    
     public void start_Again() {
         statusLabel.setText("  Game Started ");
     }
@@ -36,6 +37,5 @@ public class StatusPanel extends JPanel {
         statusLabel.setText((String) str);
     }
     
-    private JLabel statusLabel=new JLabel();
-    private LineBorder LabelBorder=new LineBorder(Color.BLACK.brighter(),2);
+    
 }

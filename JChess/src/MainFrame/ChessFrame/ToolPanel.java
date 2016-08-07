@@ -1,4 +1,3 @@
-
 package MainFrame.ChessFrame;
 
 
@@ -16,6 +15,20 @@ import javax.swing.JTextField;
 
 
 public class ToolPanel extends JPanel {
+	private final JTextField JLturn1=new JTextField(" P2  Turn ");
+    private final JTextField JLturn2=new JTextField(" P1  Turn ");
+    private final JTextField JLwhite=new JTextField("  White ");
+    private final JTextField JLblack=new JTextField("  Black ");
+    private final myHistoryList HistoryList=new myHistoryList();
+    private final short number_of_turn=1;
+    private final JScrollPane HistoryScroll=new JScrollPane(HistoryList,JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+    private final JLabel Screen1=new JLabel();
+    private final JLabel  Screen2=new JLabel();
+    private final JLabel TimDesc1=new JLabel(" Timer 1");
+    private final JLabel TimDesc2=new JLabel(" Timer 2");
+    private ThreadTimer Timer1;
+    private ThreadTimer Timer2;
+    
     /** Creates a new instance of ToolPanel */
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
@@ -39,21 +52,14 @@ public class ToolPanel extends JPanel {
         
         g2.draw(surr1);
         g2.draw(surr2);*/
-        
-        
-        
-        
+
     }
-    
-    
-    
+
     public ToolPanel() {
         setSize(200,350);
         setLocation(600,0);
         setLayout(null);
-        
-        
-        
+
         JLturn1.setSize(60,25);
         JLturn1.setLocation(20,10);
         Screen1.setSize(100,25);
@@ -99,44 +105,32 @@ public class ToolPanel extends JPanel {
         HistoryScroll.setSize(150,150);
         HistoryScroll.setLocation(20,70);
         add(HistoryScroll);
-        
-        
-        
-        
+   
     }
+    
     public  void setturn() {
         
         
     }
+    
     public void add_to_History(Object newItem) {
         HistoryList.addElemen_tolist(newItem);
     }
+    
     public void change_to_Timer1() {
         Timer1.resume();
         Timer2.suspend();
     }
+    
     public void change_to_Timer2() {
         Timer2.resume();
         Timer1.suspend();
     }
+    
     public void stop_timers() {
         Timer1.stop();
         Timer2.stop();
     }
-    
-    private final JTextField JLturn1=new JTextField(" P2  Turn ");
-    private final JTextField JLturn2=new JTextField(" P1  Turn ");
-    private final JTextField JLwhite=new JTextField("  White ");
-    private final JTextField JLblack=new JTextField("  Black ");
-    private final myHistoryList HistoryList=new myHistoryList();
-    private final short number_of_turn=1;
-    private final JScrollPane HistoryScroll=new JScrollPane(HistoryList,JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
-    private final JLabel Screen1=new JLabel();
-    private final JLabel  Screen2=new JLabel();
-    private final JLabel TimDesc1=new JLabel(" Timer 1");
-    private final JLabel TimDesc2=new JLabel(" Timer 2");
-    private ThreadTimer Timer1;
-    private ThreadTimer Timer2;
     
     public void start_Again() {
         if(Timer1!=null) {
@@ -167,6 +161,7 @@ class myHistoryList extends JList {
         listModel.addElement("Player: New Moves");
         
     }
+    
     public void clean_list() {
         listModel.clear();
     }
@@ -174,8 +169,10 @@ class myHistoryList extends JList {
     public void addElemen_tolist(Object newItem) {
         listModel.addElement(newItem);
     }
+    
     private DefaultListModel listModel=new DefaultListModel();
 }
+
 class myStatusFileds extends JTextField {
     myStatusFileds() {
         this.setEnabled(false);

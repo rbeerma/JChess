@@ -1,8 +1,8 @@
 
 package MainFrame.ChessFrame;
 
-import MainFrame.ChessFrame.players.player1;
-import MainFrame.ChessFrame.players.player2;
+import MainFrame.ChessFrame.players.Player1;
+import MainFrame.ChessFrame.players.Player2;
 
 import java.awt.Point;
 import java.awt.Color;
@@ -31,15 +31,18 @@ import javax.net.*;
 
 public class MainPanel extends JPanel {
     
-    private  player1 P1=new player1();
-    private  player2 P2=new player2();
+    private  Player1 P1=new Player1();
+    private  Player2 P2=new Player2();
     private final int Divide=600/8;
     private  int  move =0;
     private Rectangle2D rec;
     private  short players_turn=1;
     public  final ToolPanel myTool;
     private  final StatusPanel myStatus;
-    private  boolean GameOver=false;
+    // rtb
+    //private boolean GameOver=false;
+    private static boolean GameOver=false;
+    // end rtb
     private boolean Iam_Server=false;
     private boolean Iam_Client=false;
     private ServerSocket ServerSock;
@@ -58,18 +61,12 @@ public class MainPanel extends JPanel {
     
     
     public void start_As_Server(String Ip,String Port,ChatPanel newChat) {
-        
         Recv_from=new Recv_Thread();
         Refe_Chat=newChat;
         Game_started=false;
-        
         MyIp_Address=Ip;
         MyPort_number=Port;
-        
-        
-        
-        
-        
+                
         start_Again();
         startServer=new JButton(" Start server");
         startServer.setSize(150,25);
@@ -132,17 +129,12 @@ public class MainPanel extends JPanel {
         Iam_Server=true;
         repaint();
     }
+    
     public void start_As_Client(String Ip,String Port,ChatPanel newChat) {
-        
-        
         Recv_from=new Recv_Thread();
-        
         Refe_Chat=newChat;
-        
         Game_started=false;
-        
-        
-        
+           
         start_Again();
         MyIp_Address=Ip;
         MyPort_number=Port;
@@ -178,18 +170,15 @@ public class MainPanel extends JPanel {
                 startClient=null;
             }
         });
-        
-        
+
         Iam_Client=true;
         add(startClient);
-        
-        
+  
     }
     
-    
     public void start_Again() {
-        P1=new player1();
-        P2=new player2();
+        P1=new Player1();
+        P2=new Player2();
         move =0;
         players_turn=1;
         GameOver=false;
@@ -202,10 +191,8 @@ public class MainPanel extends JPanel {
         
     }
     
-    
     public MainPanel(ToolPanel myToolPanel,StatusPanel myStatusPanel) {
         setBackground(Color.WHITE);
-        
         setSize(600,600);
         setLocation(3,10);
         
@@ -217,24 +204,16 @@ public class MainPanel extends JPanel {
         myTool=myToolPanel;
         myStatus=myStatusPanel;
         setLayout(null);
-        
-        
+
     }
     
     public void paintComponent(Graphics g) {
         
         super.paintComponent(g);
         
-        
         Graphics2D g2 = (Graphics2D)g;
-        
-        
-        
-        
-        
         int iWidth = 600;
         int iHeight = 600;
-        
         
         // Drawing the board
         for (int i=0; i<8; i=i+2) {
@@ -288,12 +267,7 @@ public class MainPanel extends JPanel {
                 postY=colToY(postionPoint.y);
                 g2.drawImage(img,postX+20,postY+4,Divide-40,Divide-12 ,this);
             }
-            
-            
         }
-        
-        
-        
     }
     
     /// You can inherit from Adapter and avoid meaningless
@@ -315,12 +289,10 @@ public class MainPanel extends JPanel {
             boolean can_Send=false;
             
             if(!GameOver) {
-                
                 Point newP;
                 Point samePostion;
                 if(P1.GetInhand()!=-1) {
-                    
-                    
+
                     newP=P1.getPixelPoint(P1.GetInhand());
                     newP.x/=Divide;
                     newP.y/=Divide;
@@ -332,18 +304,8 @@ public class MainPanel extends JPanel {
                     int x=old.x;
                     int y=old.y;
                     Point present=P1.returnPostion(P1.GetInhand());
-                    
-                    
-                    
-                    ///////////////////////////////////////////////////////////////////////////
-                    ///////////////////////////////////////////////////////////////////////////
-                    
-                    
-                    
-                    
+
                     if(Iam_Server||local) {
-                        
-                        
                         // set the seen of the solider -white
                         if(P1.GetInhand()<33&&P1.GetInhand()>24) {
                             for(int i=1;i<17;i++) {
@@ -354,7 +316,7 @@ public class MainPanel extends JPanel {
                                 }
                             }
                         }
-///////////////////////////////////////////////////////////////////////////////////
+
                         if(!(newP.x== present.x&&newP.y== present.y)/*&&!P1.returncheckKing()*/)
                             if(P1.checkthemove(newP,P1.GetInhand() )) // if the move is illegal
                             {
@@ -374,16 +336,9 @@ public class MainPanel extends JPanel {
                                     
                                     if(flag==true)break;//Means  there is a Pice in the Way
                                 }
-                                
-                                
-                                
-                                
-                                //
-                                
-                                
+
                             }
-                            
-                            
+
                             if(!flag&&P1.Pice_already_there(newP))
                                 //(if flag =false this means "The pice able to MOVE as logic""
                             {
@@ -398,19 +353,13 @@ public class MainPanel extends JPanel {
                                 boolean kill=false;
                                 int killed=-1;
                                 boolean end_move=true;
-                                
-                                
-                                
+
                                 ////***  Start Here to Check the King
                                 
                                 for(int k=1;k<17;k++) {
                                     // I have to Check the Place
-                                    
                                     other=P2.returnPostion(k);
-                                    
-                                    
-                                    
-                                    
+
                                     if(newP.x==other.x&&newP.y==other.y) {
                                         
                                         int inHand=P1.GetInhand();
@@ -436,8 +385,7 @@ public class MainPanel extends JPanel {
                                             
                                             break;
                                         }
-                                        
-                                        
+
                                         killed=k;//!!!
                                         
                                         break;
@@ -445,8 +393,7 @@ public class MainPanel extends JPanel {
                                     }
                                     
                                 }
-                                
-                                
+
                                 if(end_move)
                                     P1.changePostion(newP,P1.GetInhand());// Here is the mOve ended
                                 
@@ -461,12 +408,9 @@ public class MainPanel extends JPanel {
                                 }
                                 if(kill&&P1.returncheckKing()) {
                                     P2.changePostion(f,killed);
-                                    
-                                    
+  
                                 }
-                                
-                                
-                                
+
                                 if(!P1.returncheckKing()) {
                                     
                                     if(P2.see_king_Check(P1))
@@ -487,25 +431,17 @@ public class MainPanel extends JPanel {
                                             
                                             CheckStatus();
                                             can_Send=true;
-                                            
                                         }
-                                        
-                                        
+    
                                     }
-                                    
-                                    
-                                    
-                                    
+
                                     if(end_move) {
                                         Box=Integer.toString(P1.GetInhand())+Integer.toString(newP.x)+Integer.toString(newP.y);
-                                        
-                                        
+
                                         ChangeTurn();
                                         can_Send=true;
                                     }
-                                    
-                                    
-                                    
+
                                 }
                                 
                             }
@@ -791,6 +727,7 @@ public class MainPanel extends JPanel {
         }
         return false;
     }
+    
     public boolean whenHandleAndPice(int x,int y) {
         
         if(players_turn==1&&P1.GetInhand()!=-1) {
@@ -800,21 +737,20 @@ public class MainPanel extends JPanel {
         }
         return false;
     }
+    
     private int rowToX(int r) {
         int myx;
         int iHeight = this.getHeight();
         myx=(r*iHeight/8) - Divide;
         return myx;
     }
+    
     private int colToY(int c) {
         int myy;
         int iWidth = getWidth();
         myy = (c*iWidth/8) - Divide;
         return myy;
     }
-    
-    
-    
     
     private class MousewhenMove implements MouseMotionListener {
         public void mouseDragged(MouseEvent e) {
@@ -903,7 +839,6 @@ public class MainPanel extends JPanel {
         myStatus.changeStatus(" Check! ");
     }
     
-    
     private void CheckStatus() {
         if(players_turn==1) {
             
@@ -920,18 +855,13 @@ public class MainPanel extends JPanel {
         
         myStatus.changeStatus(" Check! ");
     }
-    
-    
+
     private void GameOver() {
-        
         myStatus.changeStatus(" Check Mate! ");
-        
-        
-        
+
         GameOver=true;
     }
-    
-    
+
     public void Send_move() {
         out.print(Box);
         out.print("\r\n");
@@ -941,10 +871,7 @@ public class MainPanel extends JPanel {
     
     class Recv_Thread extends Thread {
         public synchronized  void run  () {
-            
-            
-            
-            
+
             while(true) {
                 
                 try {
@@ -955,22 +882,13 @@ public class MainPanel extends JPanel {
                     ex.printStackTrace();
                     System.out.println("ERROR");
                 }
-                
-                
-                
+
                 if(Box!=null) {
-                    
-                    
-                    
-                    
-                    
-                    
-                    
+
                     int newInHand=Integer.parseInt(Box);
                     int newX=Integer.parseInt(Box);
                     int newY=Integer.parseInt(Box);
-                    
-                    
+
                     /***
                      * Operation to Get
                      *1- The # of Pice
@@ -983,12 +901,9 @@ public class MainPanel extends JPanel {
                     newX-=(newInHand*100);
                     newX/=10;
                     newY-=(newInHand*100)+(newX*10);
-                    
-                    
+
                     if(players_turn==1) {
-                        
-                        
-                        
+
                         P1.SetInhand(newInHand);
                         players_turn=2;
                         
@@ -1065,6 +980,13 @@ public class MainPanel extends JPanel {
             }
         }
     }
+	public static boolean isGameOver() {
+		return GameOver;
+	}
+
+	public static void setGameOver(boolean gameOver) {
+		GameOver = gameOver;
+	}
     
 }
 

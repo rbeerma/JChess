@@ -1,30 +1,25 @@
-
-
 package MainFrame.ChessFrame.players;
+
 import MainFrame.ChessFrame.players.Pieces.Castle;
-import MainFrame.ChessFrame.players.Pieces.Elephent;
+import MainFrame.ChessFrame.players.Pieces.Elephant;
 import MainFrame.ChessFrame.players.Pieces.Horse;
 import MainFrame.ChessFrame.players.Pieces.Queen;
-import MainFrame.ChessFrame.players.Pieces.Solider;
-import MainFrame.ChessFrame.players.Pieces.king;
+import MainFrame.ChessFrame.players.Pieces.Soldier;
+import MainFrame.ChessFrame.players.Pieces.King;
 import java.awt.Image;
 import java.awt.Point;
 import java.util.Enumeration;
 
-
-
-
-public class player2 implements Enumeration
-{
+public class Player2 implements Enumeration {
     public Castle BC1;
     public Castle BC2;
     public Horse BH1;
     public Horse BH2;
-    public Elephent BE1;
-    public Elephent BE2;
+    public Elephant BE1;
+    public Elephant BE2;
     public Queen BQ;
-    private king BK;
-    public Solider[] BS=new Solider[8];
+    private King BK;
+    public Soldier[] BS=new Soldier[8];
     private int choosenOne;
     private int inHand=-1;
     private boolean kingischeck=false;
@@ -33,30 +28,31 @@ public class player2 implements Enumeration
     
     private String Color="black";
     /** Creates a new instance of player2 */
-    public player2()
+    public Player2()
     {
         String fileSeparator = new String(System.getProperty("file.separator"));
         BC1=new Castle("src" + fileSeparator + "Icons" + fileSeparator + "Player2Icons" + fileSeparator+ "br.gif",1,1);
         BC2=new Castle("src" + fileSeparator + "Icons" + fileSeparator + "Player2Icons" + fileSeparator+ "br.gif",8,1);
         BH1=new Horse("src" + fileSeparator + "Icons" + fileSeparator + "Player2Icons" + fileSeparator+ "bn.gif",2,1);
         BH2=new Horse("src" + fileSeparator + "Icons" + fileSeparator + "Player2Icons" + fileSeparator+ "bn.gif",7,1);
-        BE1=new Elephent("src" + fileSeparator + "Icons" + fileSeparator + "Player2Icons" + fileSeparator+ "bb.gif",3,1);
-        BE2=new Elephent("src" + fileSeparator + "Icons" + fileSeparator + "Player2Icons" + fileSeparator+ "bb.gif",6,1);
+        BE1=new Elephant("src" + fileSeparator + "Icons" + fileSeparator + "Player2Icons" + fileSeparator+ "bb.gif",3,1);
+        BE2=new Elephant("src" + fileSeparator + "Icons" + fileSeparator + "Player2Icons" + fileSeparator+ "bb.gif",6,1);
         BQ=new Queen("src" + fileSeparator + "Icons" + fileSeparator + "Player2Icons" + fileSeparator+ "bq.gif",4,1);
-        BK=new king("src" + fileSeparator + "Icons" + fileSeparator + "Player2Icons" + fileSeparator+ "bk.gif",5,1);
+        BK=new King("src" + fileSeparator + "Icons" + fileSeparator + "Player2Icons" + fileSeparator+ "bk.gif",5,1);
         int j=1;
         for(int  i=0;i<=7;i++,j++)
         {
-            BS[i]=new Solider("src" + fileSeparator + "Icons" + fileSeparator + "Player2Icons" + fileSeparator+ "bp.gif",j,2);
+            BS[i]=new Soldier("src" + fileSeparator + "Icons" + fileSeparator + "Player2Icons" + fileSeparator+ "bp.gif",j,2);
         }
     }
+    
     public void setChoosen(int newChoosen)
     {
         choosenOne=newChoosen;
     }
+    
     public Point returnPostion(int i)
     {
-        
         switch(i)
         {
             case 1:return BC1.returnPostion();
@@ -80,6 +76,7 @@ public class player2 implements Enumeration
         return new Point(-1,-1);
         
     }
+    
     public Point returnOldPostion(int i)
     {
         
@@ -106,6 +103,7 @@ public class player2 implements Enumeration
         return new Point(-1,-1);
         
     }
+    
     public Image returnIconImage(int i)
     {
         switch(i)
@@ -131,6 +129,7 @@ public class player2 implements Enumeration
         return  null;
         
     }
+    
     public void changePostion(Point newPoint,int i)
     {
         switch(i)
@@ -155,6 +154,7 @@ public class player2 implements Enumeration
         }
         
     }
+    
     public void changePostionToOld(Point newPoint,int i)
     {
         switch(i)
@@ -179,6 +179,7 @@ public class player2 implements Enumeration
         }
         
     }
+    
     public void changePixel(int newPixelX,int newPixelY)
     {
         switch(choosenOne)
@@ -202,6 +203,7 @@ public class player2 implements Enumeration
             
         }
     }
+    
     public Point getPixelPoint(int i)
     {
         choosenOne=i;
@@ -227,6 +229,7 @@ public class player2 implements Enumeration
         }
         return null;
     }
+    
     public void changePixel(int newPixelX,int newPixelY,int i)
     {
         choosenOne=i;
@@ -251,6 +254,7 @@ public class player2 implements Enumeration
             
         }
     }
+    
     public boolean Killedpiec(int i)
     {
         Point out=new Point(20,20);
@@ -301,6 +305,7 @@ public class player2 implements Enumeration
         }
         return false;
     }
+    
     public boolean setSeentoSiliders(int i,Point P)
     {
         
@@ -318,6 +323,7 @@ public class player2 implements Enumeration
         return false;
         
     }
+    
     public boolean returnsoliderSeen(int i)
     {
         switch(i)
@@ -334,6 +340,7 @@ public class player2 implements Enumeration
         }
         return false;
     }
+    
     public boolean checktheWay(Point newP,Point postionFromOthers,int i)
     {
         switch(i)
@@ -357,6 +364,7 @@ public class player2 implements Enumeration
         }
         return false;
     }
+    
     public boolean checKing(Point p1,Point p2,int i)
     {
         switch(i)
@@ -381,31 +389,38 @@ public class player2 implements Enumeration
         }
         return false;
     }
+    
     public int returnChosen()
     {
         return choosenOne;
     }
+    
     public void SetInhand(int i )
     {
         inHand=i;
     }
+    
     public int GetInhand()
     {
         return inHand;
     }
+    
     public boolean CanMove(int x,int y)
     {
         return true;
     }
+    
     public void checkKing(boolean newkingcheck)
     {
         kingischeck=newkingcheck;
     }
+    
     public boolean returncheckKing()
     {
         return kingischeck;
     }
-    public boolean  see_king_Check(player1 White)
+    
+    public boolean  see_king_Check(Player1 White)
     {
         
         Point My_King_Postion=BK.returnPostion();
@@ -481,7 +496,8 @@ public class player2 implements Enumeration
         
         return true;
     }
-    public boolean Check_Mate_GameOver(player1 Enemy)
+    
+    public boolean Check_Mate_GameOver(Player1 Enemy)
     {
         
         
@@ -569,9 +585,7 @@ public class player2 implements Enumeration
         
         
     }
-    
-    
-    
+
     public boolean Pice_already_there(Point newP)
     {
         Point samePostion;
@@ -599,7 +613,8 @@ public class player2 implements Enumeration
         
         return true;
     }
-    public boolean Pice_already_there_from_enemy(Point newP,player1 enemy)
+    
+    public boolean Pice_already_there_from_enemy(Point newP,Player1 enemy)
     {
         Point samePostion;
         for(int i=17;i<=32;i++)
@@ -625,7 +640,8 @@ public class player2 implements Enumeration
         
         return true;
     }
-    public int Get_Pice_already_there_from_enemy(Point newP,player1 enemy)
+    
+    public int Get_Pice_already_there_from_enemy(Point newP,Player1 enemy)
     {
         Point samePostion;
         for(int i=17;i<=32;i++)
@@ -638,7 +654,8 @@ public class player2 implements Enumeration
         }
         return -1;
     }
-    public boolean KingGenerate_moves(player1 enemy)
+    
+    public boolean KingGenerate_moves(Player1 enemy)
     {
         boolean somthing_killed=false;
         Point Oldp=new Point();
@@ -925,7 +942,7 @@ public class player2 implements Enumeration
         
     }
     
-    public boolean CastleGenerate_moves(player1 enemy,Castle BC)
+    public boolean CastleGenerate_moves(Player1 enemy,Castle BC)
     {
         boolean somthing_killed=false;
         Point Oldp1=new Point();
@@ -1044,7 +1061,7 @@ public class player2 implements Enumeration
         return true;
     }
     
-    public  boolean ElephentGenerate_moves(player1 enemy,Elephent BE)
+    public  boolean ElephentGenerate_moves(Player1 enemy,Elephant BE)
     {
         boolean somthing_killed=false;
         Point Oldp1=new Point();
@@ -1151,7 +1168,7 @@ public class player2 implements Enumeration
         return true;
     }
     
-    public boolean HosreGenerate_moves(player1 enemy,Horse BH)
+    public boolean HosreGenerate_moves(Player1 enemy,Horse BH)
     {
         Point oldp1=new Point();
         boolean somthing_killed=false;
@@ -1421,7 +1438,7 @@ public class player2 implements Enumeration
         return true;
     }
     
-    public boolean QueenGenerate_moves(player1 enemy)
+    public boolean QueenGenerate_moves(Player1 enemy)
     {
         boolean somthing_killed=false;
         
@@ -1604,7 +1621,8 @@ public class player2 implements Enumeration
         return true;
         
     }
-    public boolean SoliderGenerate_moves(player1 enemy, Solider Sold)
+    
+    public boolean SoliderGenerate_moves(Player1 enemy, Soldier Sold)
     {
         Point Oldp1=new Point();
         Oldp1=Sold.returnPostion();
@@ -1687,8 +1705,7 @@ public class player2 implements Enumeration
         return true;
     }
     
-    
-    public boolean Check_The_Way_to_Postion(player1 enemy,Point newP)
+    public boolean Check_The_Way_to_Postion(Player1 enemy,Point newP)
     {
         boolean flag=false;
         
@@ -1712,7 +1729,8 @@ public class player2 implements Enumeration
         
         
     }
-    public boolean kill_to_protect_king(player1 enemy,Point newP)
+    
+    public boolean kill_to_protect_king(Player1 enemy,Point newP)
     {
         
         for(int i=17;i<=32;i++)
@@ -1743,6 +1761,7 @@ public class player2 implements Enumeration
         
         return new Object();
     }
+    
     public String Tell_me_About_last_move()
     {
         switch(inHand)

@@ -129,18 +129,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="14" language="java" 
-    name="MainFrame.ChessMenuBar.ChessBar_Menus.Menu_Items.File_MenuItems.newGame_Dialoge.MyComboBox" project="JChess" 
-    file="/JChess/src/MainFrame/ChessMenuBar/ChessBar_Menus/Menu_Items/File_MenuItems/newGame_Dialoge/NewGameDialoge.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="53" width="122" x="1554" y="547"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="false">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="15" language="java" name="MainFrame.ChessFrame.MainPanel.Recv_Thread" project="JChess" 
+  <class id="14" language="java" name="MainFrame.ChessFrame.MainPanel.Recv_Thread" project="JChess" 
     file="/JChess/src/MainFrame/ChessFrame/MainPanel.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="406" y="1093"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
@@ -149,7 +138,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="16" language="java" name="MainFrame.ChessFrame.MainPanel.MousewhenMove" project="JChess" 
+  <class id="15" language="java" name="MainFrame.ChessFrame.MainPanel.MousewhenMove" project="JChess" 
     file="/JChess/src/MainFrame/ChessFrame/MainPanel.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="231" y="1102"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
@@ -158,7 +147,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="17" language="java" name="MainFrame.ChessFrame.MainPanel" project="JChess" 
+  <class id="16" language="java" name="MainFrame.ChessFrame.MainPanel" project="JChess" 
     file="/JChess/src/MainFrame/ChessFrame/MainPanel.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1058" y="667"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
@@ -167,7 +156,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="18" language="java" name="MainFrame.ChessFrame.MainPanel.Mousehere" project="JChess" 
+  <class id="17" language="java" name="MainFrame.ChessFrame.MainPanel.Mousehere" project="JChess" 
     file="/JChess/src/MainFrame/ChessFrame/MainPanel.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="569" y="1129"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
@@ -176,25 +165,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="19" language="java" name="MainFrame.ChessFrame.myStatusFileds" project="JChess" 
-    file="/JChess/src/MainFrame/ChessFrame/ToolPanel.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="2047" y="228"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="false">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="20" language="java" name="MainFrame.ChessFrame.myHistoryList" project="JChess" 
-    file="/JChess/src/MainFrame/ChessFrame/ToolPanel.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="2211" y="1445"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="false">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="21" language="java" name="MainFrame.ChessFrame.ToolPanel" project="JChess" 
+  <class id="18" language="java" name="MainFrame.ChessFrame.ToolPanel" project="JChess" 
     file="/JChess/src/MainFrame/ChessFrame/ToolPanel.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="2026" y="979"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
@@ -203,7 +174,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="22" language="java" name="MainFrame.ChessFrame.ChatPanel.client_chat" project="JChess" 
+  <class id="19" language="java" name="MainFrame.ChessFrame.ChatPanel.client_chat" project="JChess" 
     file="/JChess/src/MainFrame/ChessFrame/ChatPanel.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1539" y="1427"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
@@ -212,16 +183,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="23" language="java" name="MainFrame.ChessFrame.mybutton" project="JChess" 
-    file="/JChess/src/MainFrame/ChessFrame/ChatPanel.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="2035" y="1418"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="false">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="24" language="java" name="MainFrame.ChessFrame.ChatPanel" project="JChess" 
+  <class id="20" language="java" name="MainFrame.ChessFrame.ChatPanel" project="JChess" 
     file="/JChess/src/MainFrame/ChessFrame/ChatPanel.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1802" y="943"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
@@ -230,7 +192,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="25" language="java" name="MainFrame.ChessFrame.ChatPanel.serv_chat" project="JChess" 
+  <class id="21" language="java" name="MainFrame.ChessFrame.ChatPanel.serv_chat" project="JChess" 
     file="/JChess/src/MainFrame/ChessFrame/ChatPanel.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1677" y="1427"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
@@ -239,25 +201,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="26" language="java" name="MainFrame.ChessFrame.mytextArea" project="JChess" 
-    file="/JChess/src/MainFrame/ChessFrame/ChatPanel.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1366" y="1427"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="false">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="27" language="java" name="MainFrame.ChessFrame.myTextFiled" project="JChess" 
-    file="/JChess/src/MainFrame/ChessFrame/ChatPanel.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1857" y="1427"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="false">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="28" language="java" name="MainFrame.ChessFrame.StatusPanel" project="JChess" 
+  <class id="22" language="java" name="MainFrame.ChessFrame.StatusPanel" project="JChess" 
     file="/JChess/src/MainFrame/ChessFrame/StatusPanel.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1586" y="862"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
@@ -266,7 +210,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="29" language="java" name="MainFrame.ChessFrame.ThreadTimer.ThreadTimer" project="JChess" 
+  <class id="23" language="java" name="MainFrame.ChessFrame.ThreadTimer.ThreadTimer" project="JChess" 
     file="/JChess/src/MainFrame/ChessFrame/ThreadTimer/ThreadTimer.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="2407" y="1445"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
@@ -275,8 +219,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="30" language="java" name="MainFrame.ChessFrame.players.player1" project="JChess" 
-    file="/JChess/src/MainFrame/ChessFrame/players/player1.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="24" language="java" name="MainFrame.ChessFrame.players.Player1" project="JChess" 
+    file="/JChess/src/MainFrame/ChessFrame/players/Player1.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="798" y="1444"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="false">      
@@ -284,8 +228,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="31" language="java" name="MainFrame.ChessFrame.players.player2" project="JChess" 
-    file="/JChess/src/MainFrame/ChessFrame/players/player2.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="25" language="java" name="MainFrame.ChessFrame.players.Player2" project="JChess" 
+    file="/JChess/src/MainFrame/ChessFrame/players/Player2.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1089" y="1471"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="false">      
@@ -293,7 +237,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="32" language="java" name="MainFrame.ChessFrame.players.Pieces.Castle" project="JChess" 
+  <class id="26" language="java" name="MainFrame.ChessFrame.players.Pieces.Castle" project="JChess" 
     file="/JChess/src/MainFrame/ChessFrame/players/Pieces/Castle.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="980" y="2266"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
@@ -302,8 +246,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="33" language="java" name="MainFrame.ChessFrame.players.Pieces.king" project="JChess" 
-    file="/JChess/src/MainFrame/ChessFrame/players/Pieces/king.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="27" language="java" name="MainFrame.ChessFrame.players.Pieces.King" project="JChess" 
+    file="/JChess/src/MainFrame/ChessFrame/players/Pieces/King.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="317" y="2248"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="false">      
@@ -311,7 +255,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="34" language="java" name="MainFrame.ChessFrame.players.Pieces.Horse" project="JChess" 
+  <class id="28" language="java" name="MainFrame.ChessFrame.players.Pieces.Horse" project="JChess" 
     file="/JChess/src/MainFrame/ChessFrame/players/Pieces/Horse.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="538" y="2248"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
@@ -320,8 +264,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="35" language="java" name="MainFrame.ChessFrame.players.Pieces.pieceIcon" project="JChess" 
-    file="/JChess/src/MainFrame/ChessFrame/players/Pieces/pieceIcon.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="29" language="java" name="MainFrame.ChessFrame.players.Pieces.PieceIcon" project="JChess" 
+    file="/JChess/src/MainFrame/ChessFrame/players/Pieces/PieceIcon.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="841" y="2710"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="false">      
@@ -329,7 +273,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="36" language="java" name="MainFrame.ChessFrame.players.Pieces.Queen" project="JChess" 
+  <class id="30" language="java" name="MainFrame.ChessFrame.players.Pieces.Queen" project="JChess" 
     file="/JChess/src/MainFrame/ChessFrame/players/Pieces/Queen.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="759" y="2266"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
@@ -338,8 +282,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="37" language="java" name="MainFrame.ChessFrame.players.Pieces.Solider" project="JChess" 
-    file="/JChess/src/MainFrame/ChessFrame/players/Pieces/Solider.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="31" language="java" name="MainFrame.ChessFrame.players.Pieces.Soldier" project="JChess" 
+    file="/JChess/src/MainFrame/ChessFrame/players/Pieces/Soldier.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1201" y="2302"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="false">      
@@ -347,8 +291,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="38" language="java" name="MainFrame.ChessFrame.players.Pieces.Elephent" project="JChess" 
-    file="/JChess/src/MainFrame/ChessFrame/players/Pieces/Elephent.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="32" language="java" name="MainFrame.ChessFrame.players.Pieces.Elephant" project="JChess" 
+    file="/JChess/src/MainFrame/ChessFrame/players/Pieces/Elephant.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1422" y="2266"/>    
     <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="false">      
@@ -356,7 +300,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="39" language="java" name="MainFrame.ChessMenuBar.ChessBar_Menus.Menu_Items.Edit_MenuItems.Redo_move" 
+  <class id="33" language="java" name="MainFrame.ChessMenuBar.ChessBar_Menus.Menu_Items.Edit_MenuItems.Redo_move" 
     project="JChess" file="/JChess/src/MainFrame/ChessMenuBar/ChessBar_Menus/Menu_Items/Edit_MenuItems/Redo_move.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="2726" y="1566"/>    
@@ -366,7 +310,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="40" language="java" name="MainFrame.ChessMenuBar.ChessBar_Menus.Menu_Items.Edit_MenuItems.Undo_move" 
+  <class id="34" language="java" name="MainFrame.ChessMenuBar.ChessBar_Menus.Menu_Items.Edit_MenuItems.Undo_move" 
     project="JChess" file="/JChess/src/MainFrame/ChessMenuBar/ChessBar_Menus/Menu_Items/Edit_MenuItems/Undo_move.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="2577" y="1566"/>    
@@ -376,7 +320,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="41" language="java" name="MainFrame.ChessMenuBar.ChessBar_Menus.Menu_Items.Tool_MenuItems.Options" 
+  <class id="35" language="java" name="MainFrame.ChessMenuBar.ChessBar_Menus.Menu_Items.Tool_MenuItems.Options" 
     project="JChess" file="/JChess/src/MainFrame/ChessMenuBar/ChessBar_Menus/Menu_Items/Tool_MenuItems/Options.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="2861" y="1566"/>    
@@ -386,7 +330,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="42" language="java" name="MainFrame.ChessMenuBar.ChessBar_Menus.Menu_Items.Help_MenuItems.About_Chess_Game" 
+  <class id="36" language="java" name="MainFrame.ChessMenuBar.ChessBar_Menus.Menu_Items.Help_MenuItems.About_Chess_Game" 
     project="JChess" 
     file="/JChess/src/MainFrame/ChessMenuBar/ChessBar_Menus/Menu_Items/Help_MenuItems/About_Chess_Game.java" 
     binary="false" corner="BOTTOM_RIGHT">    
@@ -397,7 +341,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="43" language="java" 
+  <class id="37" language="java" 
     name="MainFrame.ChessMenuBar.ChessBar_Menus.Menu_Items.Help_MenuItems.About_Game_Programmers" project="JChess" 
     file="/JChess/src/MainFrame/ChessMenuBar/ChessBar_Menus/Menu_Items/Help_MenuItems/About_Game_Programmers.java" 
     binary="false" corner="BOTTOM_RIGHT">    
@@ -408,28 +352,52 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="44">    
-    <end type="SOURCE" refId="31" navigable="false">      
-      <attribute id="45" name="BC1">        
-        <position height="0" width="0" x="205" y="-349"/>      
+  <association id="38">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="39" name="BS">        
+        <position height="0" width="0" x="183" y="-278"/>      
       </attribute>      
-      <multiplicity id="46" minimum="0" maximum="1">        
-        <position height="0" width="0" x="205" y="-349"/>      
+      <multiplicity id="40" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="41">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="42" name="WE1">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </attribute>      
+      <multiplicity id="43" minimum="0" maximum="1">        
+        <position height="0" width="0" x="183" y="-278"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="32" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="47">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="48" name="Fmenu">        
-        <position height="0" width="0" x="0" y="0"/>      
+  <association id="44">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="45" name="BQ">        
+        <position height="0" width="0" x="183" y="-278"/>      
       </attribute>      
-      <multiplicity id="49" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
+      <multiplicity id="46" minimum="0" maximum="1">        
+        <position height="0" width="0" x="183" y="-278"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="47">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="48" name="myserv_thread">        
+        <position height="0" width="0" x="-86" y="-874"/>      
+      </attribute>      
+      <multiplicity id="49" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-86" y="-874"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="50">    
@@ -445,697 +413,615 @@
     <display labels="true" multiplicity="true"/>  
   </association>  
   <nesting id="53">    
-    <end type="SOURCE" refId="24"/>    
-    <end type="TARGET" refId="25"/>  
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="19"/>  
   </nesting>  
   <association id="54">    
-    <end type="SOURCE" refId="31" navigable="false">      
-      <attribute id="55" name="BK">        
-        <position height="0" width="0" x="183" y="-278"/>      
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="55" name="Satuspanel">        
+        <position height="0" width="0" x="-7" y="-599"/>      
       </attribute>      
       <multiplicity id="56" minimum="0" maximum="1">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="33" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="57">    
-    <end type="SOURCE" refId="37" navigable="false">      
-      <attribute id="58" name="PieceIcon">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </attribute>      
-      <multiplicity id="59" minimum="0" maximum="1">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="35" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="60">    
-    <end type="SOURCE" refId="24" navigable="false">      
-      <attribute id="61" name="TextFiled">        
-        <position height="0" width="0" x="-86" y="-874"/>      
-      </attribute>      
-      <multiplicity id="62" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-86" y="-874"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="27" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="63">    
-    <end type="SOURCE" refId="31" navigable="false">      
-      <attribute id="64" name="BE1">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </attribute>      
-      <multiplicity id="65" minimum="0" maximum="1">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="38" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="66">    
-    <end type="SOURCE" refId="32" navigable="false">      
-      <attribute id="67" name="PieceIcon">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </attribute>      
-      <multiplicity id="68" minimum="0" maximum="1">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="35" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="69">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="70" name="Satuspanel">        
-        <position height="0" width="0" x="-7" y="-599"/>      
-      </attribute>      
-      <multiplicity id="71" minimum="0" maximum="1">        
         <position height="0" width="0" x="-7" y="-599"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="28" navigable="true"/>    
+    <end type="TARGET" refId="22" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="72">    
-    <end type="SOURCE" refId="17" navigable="false">      
-      <attribute id="73" name="Refe_Chat">        
-        <position height="0" width="0" x="-7" y="-599"/>      
-      </attribute>      
-      <multiplicity id="74" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-7" y="-599"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="24" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="75">    
-    <end type="SOURCE" refId="17" navigable="false">      
-      <attribute id="76" name="P1">        
-        <position height="0" width="0" x="14" y="-341"/>      
-      </attribute>      
-      <multiplicity id="77" minimum="0" maximum="1">        
-        <position height="0" width="0" x="14" y="-341"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="30" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="78">    
-    <end type="SOURCE" refId="21" navigable="false">      
-      <attribute id="79" name="Timer1">        
-        <position height="0" width="0" x="-86" y="-874"/>      
-      </attribute>      
-      <multiplicity id="80" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-86" y="-874"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="29" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="81">    
-    <end type="SOURCE" refId="21" navigable="false">      
-      <attribute id="82" name="HistoryList">        
-        <position height="0" width="0" x="-86" y="-874"/>      
-      </attribute>      
-      <multiplicity id="83" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-86" y="-874"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="20" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <nesting id="84">    
-    <end type="SOURCE" refId="17"/>    
-    <end type="TARGET" refId="16"/>  
+  <nesting id="57">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="14"/>  
   </nesting>  
-  <association id="85">    
-    <end type="SOURCE" refId="24" navigable="false">      
-      <attribute id="86" name="Sendbutton">        
+  <association id="58">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="59" name="myTool">        
+        <position height="0" width="0" x="-7" y="-599"/>      
+      </attribute>      
+      <multiplicity id="60" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-7" y="-599"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="61">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="62" name="Timer2">        
         <position height="0" width="0" x="-86" y="-874"/>      
       </attribute>      
-      <multiplicity id="87" minimum="0" maximum="1">        
+      <multiplicity id="63" minimum="0" maximum="1">        
         <position height="0" width="0" x="-86" y="-874"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="23" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="88">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="89" name="GameOptions">        
-        <position height="0" width="0" x="-75" y="-726"/>      
-      </attribute>      
-      <multiplicity id="90" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-75" y="-726"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="41" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="91">    
-    <end type="SOURCE" refId="17" navigable="false">      
-      <attribute id="92" name="P2">        
-        <position height="0" width="0" x="14" y="-341"/>      
-      </attribute>      
-      <multiplicity id="93" minimum="0" maximum="1">        
-        <position height="0" width="0" x="14" y="-341"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="31" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="94">    
-    <end type="SOURCE" refId="30" navigable="false">      
-      <attribute id="95" name="WE1">        
+  <association id="64">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="65" name="WH1">        
         <position height="0" width="0" x="183" y="-278"/>      
       </attribute>      
-      <multiplicity id="96" minimum="0" maximum="1">        
+      <multiplicity id="66" minimum="0" maximum="1">        
         <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="38" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="97">    
-    <end type="SOURCE" refId="17" navigable="false">      
-      <attribute id="98" name="myTool">        
-        <position height="0" width="0" x="-7" y="-599"/>      
-      </attribute>      
-      <multiplicity id="99" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-7" y="-599"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="21" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="100">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="101" name="AboutUs">        
-        <position height="0" width="0" x="-75" y="-726"/>      
-      </attribute>      
-      <multiplicity id="102" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-75" y="-726"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="43" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="103">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="104" name="AboutGame">        
-        <position height="0" width="0" x="-75" y="-726"/>      
-      </attribute>      
-      <multiplicity id="105" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-75" y="-726"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="42" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="106">    
-    <end type="SOURCE" refId="34" navigable="false">      
-      <attribute id="107" name="PieceIcon">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </attribute>      
-      <multiplicity id="108" minimum="0" maximum="1">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="35" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="109">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="110" name="MyChessBar">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="111" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <nesting id="112">    
-    <end type="SOURCE" refId="17"/>    
-    <end type="TARGET" refId="15"/>  
-  </nesting>  
-  <nesting id="113">    
-    <end type="SOURCE" refId="17"/>    
-    <end type="TARGET" refId="18"/>  
-  </nesting>  
-  <association id="114">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="115" name="Tmenu">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="116" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="7" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="117">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="118" name="Chatpanel">        
-        <position height="0" width="0" x="-7" y="-599"/>      
-      </attribute>      
-      <multiplicity id="119" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-7" y="-599"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="24" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="120">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="121" name="SItem">        
-        <position height="0" width="0" x="-68" y="-734"/>      
-      </attribute>      
-      <multiplicity id="122" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-68" y="-734"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="11" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="123">    
-    <end type="SOURCE" refId="31" navigable="false">      
-      <attribute id="124" name="BS">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </attribute>      
-      <multiplicity id="125" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="37" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="126">    
-    <end type="SOURCE" refId="17" navigable="false">      
-      <attribute id="127" name="myStatus">        
-        <position height="0" width="0" x="-7" y="-599"/>      
-      </attribute>      
-      <multiplicity id="128" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-7" y="-599"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="28" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="129">    
-    <end type="SOURCE" refId="36" navigable="false">      
-      <attribute id="130" name="PieceIcon">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </attribute>      
-      <multiplicity id="131" minimum="0" maximum="1">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="35" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="132">    
-    <end type="SOURCE" refId="30" navigable="false">      
-      <attribute id="133" name="WC2">        
-        <position height="0" width="0" x="205" y="-349"/>      
-      </attribute>      
-      <multiplicity id="134" minimum="0" maximum="1">        
-        <position height="0" width="0" x="205" y="-349"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="32" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="135">    
+  <association id="67">    
     <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="136" name="Hmenu">        
+      <attribute id="68" name="Fmenu">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
-      <multiplicity id="137" minimum="0" maximum="1">        
+      <multiplicity id="69" minimum="0" maximum="1">        
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
+    <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="138">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="139" name="Mainpanel">        
-        <position height="0" width="0" x="20" y="-368"/>      
-      </attribute>      
-      <multiplicity id="140" minimum="0" maximum="1">        
-        <position height="0" width="0" x="20" y="-368"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="17" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="141">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="142" name="Toolpanel">        
-        <position height="0" width="0" x="-7" y="-599"/>      
-      </attribute>      
-      <multiplicity id="143" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-7" y="-599"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="21" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="144">    
-    <end type="SOURCE" refId="30" navigable="false">      
-      <attribute id="145" name="WS">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </attribute>      
-      <multiplicity id="146" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="37" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="147">    
-    <end type="SOURCE" refId="38" navigable="false">      
-      <attribute id="148" name="PieceIcon">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </attribute>      
-      <multiplicity id="149" minimum="0" maximum="1">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="35" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="150">    
-    <end type="SOURCE" refId="31" navigable="false">      
-      <attribute id="151" name="BQ">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </attribute>      
-      <multiplicity id="152" minimum="0" maximum="1">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="36" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="153">    
-    <end type="SOURCE" refId="30" navigable="false">      
-      <attribute id="154" name="WH2">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </attribute>      
-      <multiplicity id="155" minimum="0" maximum="1">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="34" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="156">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="157" name="Emenu">        
-        <position height="0" width="0" x="-91" y="-3"/>      
-      </attribute>      
-      <multiplicity id="158" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-91" y="-3"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="159">    
-    <end type="SOURCE" refId="30" navigable="false">      
-      <attribute id="160" name="WQ">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </attribute>      
-      <multiplicity id="161" minimum="0" maximum="1">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="36" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="162">    
-    <end type="SOURCE" refId="31" navigable="false">      
-      <attribute id="163" name="BH2">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </attribute>      
-      <multiplicity id="164" minimum="0" maximum="1">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="34" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="165">    
-    <end type="SOURCE" refId="33" navigable="false">      
-      <attribute id="166" name="PieceIcon">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </attribute>      
-      <multiplicity id="167" minimum="0" maximum="1">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="35" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="168">    
-    <end type="SOURCE" refId="24" navigable="false">      
-      <attribute id="169" name="myserv_thread">        
-        <position height="0" width="0" x="-86" y="-874"/>      
-      </attribute>      
-      <multiplicity id="170" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-86" y="-874"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="25" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <nesting id="171">    
-    <end type="SOURCE" refId="24"/>    
-    <end type="TARGET" refId="22"/>  
-  </nesting>  
-  <association id="172">    
+  <association id="70">    
     <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="173" name="LItem">        
+      <attribute id="71" name="LItem">        
         <position height="0" width="0" x="-68" y="-734"/>      
       </attribute>      
-      <multiplicity id="174" minimum="0" maximum="1">        
+      <multiplicity id="72" minimum="0" maximum="1">        
         <position height="0" width="0" x="-68" y="-734"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="9" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <association id="73">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="74" name="PieceIcon">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </attribute>      
+      <multiplicity id="75" minimum="0" maximum="1">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="76">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="77" name="Mainpanel">        
+        <position height="0" width="0" x="20" y="-368"/>      
+      </attribute>      
+      <multiplicity id="78" minimum="0" maximum="1">        
+        <position height="0" width="0" x="20" y="-368"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="79">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
+  </nesting>  
+  <association id="80">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="81" name="Chatpanel">        
+        <position height="0" width="0" x="-7" y="-599"/>      
+      </attribute>      
+      <multiplicity id="82" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-7" y="-599"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="83">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="84" name="PieceIcon">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </attribute>      
+      <multiplicity id="85" minimum="0" maximum="1">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="86">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="87" name="mynewFrame">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="88" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="89">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="90" name="Emenu">        
+        <position height="0" width="0" x="-91" y="-3"/>      
+      </attribute>      
+      <multiplicity id="91" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-91" y="-3"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="92">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="93" name="WC2">        
+        <position height="0" width="0" x="205" y="-349"/>      
+      </attribute>      
+      <multiplicity id="94" minimum="0" maximum="1">        
+        <position height="0" width="0" x="205" y="-349"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="95">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="96" name="PieceIcon">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </attribute>      
+      <multiplicity id="97" minimum="0" maximum="1">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="98">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="99" name="Tmenu">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="100" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="101">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="102" name="Ritem">        
+        <position height="0" width="0" x="-75" y="-726"/>      
+      </attribute>      
+      <multiplicity id="103" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-75" y="-726"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="104">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="105" name="AboutGame">        
+        <position height="0" width="0" x="-75" y="-726"/>      
+      </attribute>      
+      <multiplicity id="106" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-75" y="-726"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="107">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="108" name="Recv_from">        
+        <position height="0" width="0" x="14" y="-341"/>      
+      </attribute>      
+      <multiplicity id="109" minimum="0" maximum="1">        
+        <position height="0" width="0" x="14" y="-341"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="110">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="111" name="AboutUs">        
+        <position height="0" width="0" x="-75" y="-726"/>      
+      </attribute>      
+      <multiplicity id="112" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-75" y="-726"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="113">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="114" name="WS">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </attribute>      
+      <multiplicity id="115" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="116">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="117" name="Toolpanel">        
+        <position height="0" width="0" x="-7" y="-599"/>      
+      </attribute>      
+      <multiplicity id="118" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-7" y="-599"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="119">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="120" name="client_thread">        
+        <position height="0" width="0" x="-86" y="-874"/>      
+      </attribute>      
+      <multiplicity id="121" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-86" y="-874"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="122">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="123" name="PieceIcon">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </attribute>      
+      <multiplicity id="124" minimum="0" maximum="1">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="125">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="126" name="WE2">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </attribute>      
+      <multiplicity id="127" minimum="0" maximum="1">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="128">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="129" name="Hmenu">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="130" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="131">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="132" name="P1">        
+        <position height="0" width="0" x="14" y="-341"/>      
+      </attribute>      
+      <multiplicity id="133" minimum="0" maximum="1">        
+        <position height="0" width="0" x="14" y="-341"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="134">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="135" name="Timer1">        
+        <position height="0" width="0" x="-86" y="-874"/>      
+      </attribute>      
+      <multiplicity id="136" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-86" y="-874"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="137">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="138" name="myStatus">        
+        <position height="0" width="0" x="-7" y="-599"/>      
+      </attribute>      
+      <multiplicity id="139" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-7" y="-599"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="140">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="141" name="P2">        
+        <position height="0" width="0" x="14" y="-341"/>      
+      </attribute>      
+      <multiplicity id="142" minimum="0" maximum="1">        
+        <position height="0" width="0" x="14" y="-341"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="143">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="144" name="Refe_Chat">        
+        <position height="0" width="0" x="-7" y="-599"/>      
+      </attribute>      
+      <multiplicity id="145" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-7" y="-599"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="146">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="17"/>  
+  </nesting>  
+  <nesting id="147">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="21"/>  
+  </nesting>  
+  <association id="148">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="149" name="MyChessBar">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="150" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="151">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="152" name="WH2">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </attribute>      
+      <multiplicity id="153" minimum="0" maximum="1">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="154">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="155" name="WC1">        
+        <position height="0" width="0" x="205" y="-349"/>      
+      </attribute>      
+      <multiplicity id="156" minimum="0" maximum="1">        
+        <position height="0" width="0" x="205" y="-349"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="157">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="158" name="BE2">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </attribute>      
+      <multiplicity id="159" minimum="0" maximum="1">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="160">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="161" name="BH1">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </attribute>      
+      <multiplicity id="162" minimum="0" maximum="1">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="163">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="164" name="BC1">        
+        <position height="0" width="0" x="205" y="-349"/>      
+      </attribute>      
+      <multiplicity id="165" minimum="0" maximum="1">        
+        <position height="0" width="0" x="205" y="-349"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="166">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="167" name="BH2">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </attribute>      
+      <multiplicity id="168" minimum="0" maximum="1">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="169">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="170" name="BK">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </attribute>      
+      <multiplicity id="171" minimum="0" maximum="1">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="172">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="173" name="BE1">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </attribute>      
+      <multiplicity id="174" minimum="0" maximum="1">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
   <association id="175">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="176" name="EItem">        
-        <position height="0" width="0" x="-68" y="-734"/>      
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="176" name="GameOptions">        
+        <position height="0" width="0" x="-75" y="-726"/>      
       </attribute>      
       <multiplicity id="177" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-75" y="-726"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="178">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="179" name="WQ">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </attribute>      
+      <multiplicity id="180" minimum="0" maximum="1">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="181">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="182" name="WK">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </attribute>      
+      <multiplicity id="183" minimum="0" maximum="1">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="184">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="185" name="PieceIcon">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </attribute>      
+      <multiplicity id="186" minimum="0" maximum="1">        
+        <position height="0" width="0" x="183" y="-278"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="187">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="188" name="EItem">        
+        <position height="0" width="0" x="-68" y="-734"/>      
+      </attribute>      
+      <multiplicity id="189" minimum="0" maximum="1">        
         <position height="0" width="0" x="-68" y="-734"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="8" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="178">    
-    <end type="SOURCE" refId="17" navigable="false">      
-      <attribute id="179" name="Recv_from">        
-        <position height="0" width="0" x="14" y="-341"/>      
-      </attribute>      
-      <multiplicity id="180" minimum="0" maximum="1">        
-        <position height="0" width="0" x="14" y="-341"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="15" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="181">    
-    <end type="SOURCE" refId="13" navigable="false">      
-      <attribute id="182" name="myCom"/>      
-      <multiplicity id="183" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="14" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="184">    
-    <end type="SOURCE" refId="31" navigable="false">      
-      <attribute id="185" name="BC2">        
+  <association id="190">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="191" name="BC2">        
         <position height="0" width="0" x="205" y="-349"/>      
       </attribute>      
-      <multiplicity id="186" minimum="0" maximum="1">        
+      <multiplicity id="192" minimum="0" maximum="1">        
         <position height="0" width="0" x="205" y="-349"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="32" navigable="true"/>    
+    <end type="TARGET" refId="26" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <nesting id="187">    
-    <end type="SOURCE" refId="13"/>    
-    <end type="TARGET" refId="12"/>  
+  <association id="193">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="194" name="Uitem">        
+        <position height="0" width="0" x="-75" y="-726"/>      
+      </attribute>      
+      <multiplicity id="195" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-75" y="-726"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="196">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="15"/>  
   </nesting>  
-  <association id="188">    
+  <association id="197">    
     <end type="SOURCE" refId="10" navigable="false">      
-      <attribute id="189" name="Ndial">        
+      <attribute id="198" name="Ndial">        
         <position height="0" width="0" x="0" y="0"/>      
       </attribute>      
-      <multiplicity id="190" minimum="0" maximum="1">        
+      <multiplicity id="199" minimum="0" maximum="1">        
         <position height="0" width="0" x="0" y="0"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="13" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="191">    
-    <end type="SOURCE" refId="24" navigable="false">      
-      <attribute id="192" name="textArea">        
-        <position height="0" width="0" x="-86" y="-874"/>      
-      </attribute>      
-      <multiplicity id="193" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-86" y="-874"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="26" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="194">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="195" name="Ritem">        
-        <position height="0" width="0" x="-75" y="-726"/>      
-      </attribute>      
-      <multiplicity id="196" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-75" y="-726"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="39" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="197">    
-    <end type="SOURCE" refId="31" navigable="false">      
-      <attribute id="198" name="BE2">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </attribute>      
-      <multiplicity id="199" minimum="0" maximum="1">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="38" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
   <association id="200">    
-    <end type="SOURCE" refId="21" navigable="false">      
-      <attribute id="201" name="Timer2">        
-        <position height="0" width="0" x="-86" y="-874"/>      
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="201" name="SItem">        
+        <position height="0" width="0" x="-68" y="-734"/>      
       </attribute>      
       <multiplicity id="202" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-86" y="-874"/>      
+        <position height="0" width="0" x="-68" y="-734"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="29" navigable="true"/>    
+    <end type="TARGET" refId="11" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="203">    
-    <end type="SOURCE" refId="30" navigable="false">      
-      <attribute id="204" name="WH1">        
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="204" name="PieceIcon">        
         <position height="0" width="0" x="183" y="-278"/>      
       </attribute>      
       <multiplicity id="205" minimum="0" maximum="1">        
         <position height="0" width="0" x="183" y="-278"/>      
       </multiplicity>    
     </end>    
-    <end type="TARGET" refId="34" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="206">    
-    <end type="SOURCE" refId="31" navigable="false">      
-      <attribute id="207" name="BH1">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </attribute>      
-      <multiplicity id="208" minimum="0" maximum="1">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="34" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="209">    
-    <end type="SOURCE" refId="24" navigable="false">      
-      <attribute id="210" name="client_thread">        
-        <position height="0" width="0" x="-86" y="-874"/>      
-      </attribute>      
-      <multiplicity id="211" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-86" y="-874"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="22" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="212">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="213" name="Uitem">        
-        <position height="0" width="0" x="-75" y="-726"/>      
-      </attribute>      
-      <multiplicity id="214" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-75" y="-726"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="40" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="215">    
-    <end type="SOURCE" refId="30" navigable="false">      
-      <attribute id="216" name="WK">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </attribute>      
-      <multiplicity id="217" minimum="0" maximum="1">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="33" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="218">    
-    <end type="SOURCE" refId="30" navigable="false">      
-      <attribute id="219" name="WC1">        
-        <position height="0" width="0" x="205" y="-349"/>      
-      </attribute>      
-      <multiplicity id="220" minimum="0" maximum="1">        
-        <position height="0" width="0" x="205" y="-349"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="32" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="221">    
-    <end type="SOURCE" refId="30" navigable="false">      
-      <attribute id="222" name="WE2">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </attribute>      
-      <multiplicity id="223" minimum="0" maximum="1">        
-        <position height="0" width="0" x="183" y="-278"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="38" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="224">    
-    <end type="SOURCE" refId="13" navigable="false">      
-      <attribute id="225" name="mynewFrame">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="226" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
+    <end type="TARGET" refId="29" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="false" initial-value="false" signature="false" 
