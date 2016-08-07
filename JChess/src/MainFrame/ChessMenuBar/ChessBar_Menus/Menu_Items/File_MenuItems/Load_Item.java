@@ -12,6 +12,8 @@ public class Load_Item  extends JMenuItem
     /** Creates a new instance of Load_Item */
     public Load_Item()
     {
+    	this.setEnabled(false);
+    	
         setText("Load Game");
         addActionListener(new ActionListener()
         {

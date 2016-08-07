@@ -11,6 +11,8 @@ public class Redo_move extends JMenuItem
     /** Creates a new instance of Redo_move */
     public Redo_move()
     {
+    	this.setEnabled(false);
+    	
         setText("Redo move");
         
     }

@@ -8,12 +8,13 @@ import javax.swing.JFileChooser;
 import javax.swing.JMenuItem;
 
 
-public class Save_Item extends JMenuItem
-{
+public class Save_Item extends JMenuItem {
     
     /** Creates a new instance of Save_Item */
     public Save_Item()
     {
+    	this.setEnabled(false);
+    	
         setText("Save Game");
         addActionListener(new ActionListener()
         {
