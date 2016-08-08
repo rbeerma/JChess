@@ -29,10 +29,8 @@ public class ThreadTimer extends Thread {
             }
             
             myScreen.setText(Float.toString(mytime)+" Seconds");
-            if(mytime==0) {
-            	// rtb added
+            if(mytime == 0) {
                 MainPanel.setGameOver(true);
-                // end rtb
                 JOptionPane.showConfirmDialog(null," Game Over!\n Timeout","Timeout",JOptionPane.DEFAULT_OPTION);
                 stop();
                 System.out.println("TimeOut");

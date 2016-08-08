@@ -34,15 +34,11 @@ public class MainPanel extends JPanel {
     private  Player1 P1=new Player1();
     private  Player2 P2=new Player2();
     private final int Divide=600/8;
-    private  int  move =0;
     private Rectangle2D rec;
-    private  short players_turn=1;
+    private static short players_turn=1;
     public  final ToolPanel myTool;
     private  final StatusPanel myStatus;
-    // rtb
-    //private boolean GameOver=false;
     private static boolean GameOver=false;
-    // end rtb
     private boolean Iam_Server=false;
     private boolean Iam_Client=false;
     private ServerSocket ServerSock;
@@ -50,7 +46,7 @@ public class MainPanel extends JPanel {
     private BufferedReader in;
     private PrintWriter out;
     private String Box;
-    private boolean local=true;
+    private static boolean local = true;
     private JButton startServer;
     private JButton startClient;
     private String MyIp_Address;
@@ -179,7 +175,6 @@ public class MainPanel extends JPanel {
     public void start_Again() {
         P1=new Player1();
         P2=new Player2();
-        move =0;
         players_turn=1;
         GameOver=false;
         local=true;
@@ -719,7 +714,7 @@ public class MainPanel extends JPanel {
                     return true;
                 }
                 P1.SetInhand(-1);
-                move=0;
+                //move=0;
                 
                 return false;
                 
@@ -986,6 +981,22 @@ public class MainPanel extends JPanel {
 
 	public static void setGameOver(boolean gameOver) {
 		GameOver = gameOver;
+	}
+
+	public static boolean isLocal() {
+		return local;
+	}
+
+	public static void setLocal(boolean local) {
+		MainPanel.local = local;
+	}
+
+	public static short getPlayers_turn() {
+		return players_turn;
+	}
+
+	public static void setPlayers_turn(short players_turn) {
+		MainPanel.players_turn = players_turn;
 	}
     
 }

@@ -74,15 +74,15 @@ import java.util.Properties;
 public class Player1 {
     
     /** Creates a new instance of player1 */
-    public Castle WC1;
-    public Castle WC2;
-    public Horse WH1;
-    public Horse WH2;
-    public Queen WQ;
-    public Elephant WE1;
-    public Elephant WE2;
-    public Soldier[] WS=new Soldier[8];
-    public King WK;
+    public static Castle WC1;
+    public static Castle WC2;
+    public static Horse WH1;
+    public static Horse WH2;
+    public static Queen WQ;
+    public static Elephant WE1;
+    public static Elephant WE2;
+    public static Soldier[] WS=new Soldier[8];
+    public static King WK;
     private int inHand=-1;
     private boolean kingischeck=false;
     private int choosenOne;
@@ -1534,6 +1534,24 @@ public class Player1 {
             case 32:return  WS[7].Tell_me();
         }
         return null;
+    }
+    
+    public static String getSaveState() {
+    	StringBuilder sb = new StringBuilder();
+    	sb.append("WC1:" + WC1.returnX() + ":" + WC1.returnY() + ":" + WC1.returnLife() + "\n");
+    	sb.append("WC2:" + WC2.returnX() + ":" + WC2.returnY() + ":" + WC2.returnLife() + "\n");
+    	sb.append("WH1:" + WH1.returnX() + ":" + WH1.returnY() + ":" + WH1.returnLife() + "\n");
+    	sb.append("WH2:" + WH2.returnX() + ":" + WH2.returnY() + ":" + WH2.returnLife() + "\n");
+    	sb.append("WE1:" + WE1.returnX() + ":" + WE1.returnY() + ":" + WE1.returnLife() + "\n");
+    	sb.append("WE2:" + WE2.returnX() + ":" + WE2.returnY() + ":" + WE2.returnLife() + "\n");
+    	sb.append("WQ:" + WQ.returnX() + ":" + WQ.returnY() + ":" + WQ.returnLife() + "\n");
+    	sb.append("WK:" + WK.returnX() + ":" + WK.returnY() + ":" + WK.returnLife() + "\n");
+    	
+    	for (int i=0; i<WS.length; i++) {
+    		sb.append("WS[" + i + "]:" + WS[i].returnX() + ":" + WS[i].returnY() + ":" + WS[i].returnLife() + "\n");
+    	}
+    	
+    	return sb.toString();
     }
 }
 
