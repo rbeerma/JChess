@@ -1,4 +1,3 @@
-
 package MainFrame.ChessFrame;
 
 import java.awt.Color;
@@ -31,6 +30,10 @@ public class StatusPanel extends JPanel {
     
     public void start_Again() {
         statusLabel.setText("  Game Started ");
+    }
+    
+    public void startLoadedGame(String turnMsg) {
+    	statusLabel.setText(turnMsg);
     }
     
     public void changeStatus(Object str) {

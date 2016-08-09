@@ -1,4 +1,3 @@
-
 package ChessGame;
 import MainFrame.ChessFrame.MainFrame;
 

@@ -2,10 +2,6 @@
 
 package MainFrame.ChessMenuBar.ChessBar_Menus.Menu_Items.File_MenuItems.newGame_Dialoge;
 
-import MainFrame.ChessMenuBar.Chess_MainMenuBar;
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.FlowLayout;
 import java.awt.Graphics;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -16,14 +12,9 @@ import javax.swing.JDialog;
 import javax.swing.JComboBox;
 import javax.swing.JButton;
 import java.awt.Container;
-import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import MainFrame.ChessFrame.MainFrame;
-import MainFrame.ChessFrame.MainPanel;
-import MainFrame.ChessFrame.StatusPanel;
-import MainFrame.ChessFrame.ToolPanel;
-import MainFrame.ChessFrame.ChatPanel;
 import javax.swing.JTextField;
 import javax.swing.JRadioButton;
 

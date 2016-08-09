@@ -30,7 +30,7 @@ public class Save_Item extends JMenuItem {
     /** Creates a new instance of Save_Item */
     public Save_Item() {
     	chooser = new JFileChooser();
-    	filter = new FileNameExtensionFilter("Data files", "dat");
+    	filter = new FileNameExtensionFilter("JChess files", "jchess");
     	chooser.setFileFilter(filter);
     	    	
     	setText("Save Game");
@@ -42,17 +42,18 @@ public class Save_Item extends JMenuItem {
                 if (returnVal == JFileChooser.APPROVE_OPTION) {
                 	String filePath = chooser.getSelectedFile().getAbsolutePath();
                 	
-                	if (!filePath.endsWith(".dat")) {
-                		filePath += ".dat";
+                	if (!filePath.endsWith(".jchess")) {
+                		filePath += ".jchess";
                 	}
                 	saveFile = Paths.get(filePath);
                 }
                 
         	  	try (BufferedWriter writer = Files.newBufferedWriter(saveFile, charset, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
-        	  		writer.write("local:" + MainPanel.isLocal() + "\n");
-        	  		writer.write("turn:" + MainPanel.getPlayers_turn() + "\n");
+        	  		writer.write("" + (MainPanel.isLocal() ? 1 : 0));
+        	  		writer.write("" + MainPanel.getPlayers_turn());
 					writer.write(Player1.getSaveState());
 					writer.write(Player2.getSaveState());
+					writer.close();
 				} catch (IOException e1) {
 					e1.printStackTrace();
 				}

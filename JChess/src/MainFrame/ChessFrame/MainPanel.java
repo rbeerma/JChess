@@ -17,16 +17,11 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.UnknownHostException;
-import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import java.awt.event.*;
 import java.lang.String;
-import javax.swing.JScrollPane;
-import javax.swing.border.BevelBorder;
-import javax.swing.border.TitledBorder;
-import javax.net.*;
 
 
 public class MainPanel extends JPanel {
@@ -35,12 +30,12 @@ public class MainPanel extends JPanel {
     private  Player2 P2=new Player2();
     private final int Divide=600/8;
     private Rectangle2D rec;
-    private static short players_turn=1;
-    public  final ToolPanel myTool;
-    private  final StatusPanel myStatus;
+    private static int players_turn=1;
+    public  static ToolPanel myTool;
+    private  static StatusPanel myStatus;
     private static boolean GameOver=false;
-    private boolean Iam_Server=false;
-    private boolean Iam_Client=false;
+    private static boolean Iam_Server=false;
+    private static boolean Iam_Client=false;
     private ServerSocket ServerSock;
     private Socket Sock;
     private BufferedReader in;
@@ -120,8 +115,6 @@ public class MainPanel extends JPanel {
         });
         local=false;
         add(startServer);
-        
-        
         Iam_Server=true;
         repaint();
     }
@@ -186,6 +179,26 @@ public class MainPanel extends JPanel {
         
     }
     
+    public void startLoadedGame(Player1 player1, Player2 player2, int local, int players_turn) {
+    	P1 = player1;
+    	P2 = player2;
+    	this.players_turn=players_turn;
+    	GameOver=false;
+    	myTool.start_Again();
+    	
+    	if (players_turn == 1) {
+    		myStatus.startLoadedGame(" While player turn ");
+    	} else {
+    		myStatus.startLoadedGame(" Black player turn ");
+    	}
+    	
+    	if (local == 1) {
+    		Iam_Server=false;
+    		Iam_Client=false;
+    	}
+    	repaint();
+    }
+    
     public MainPanel(ToolPanel myToolPanel,StatusPanel myStatusPanel) {
         setBackground(Color.WHITE);
         setSize(600,600);
@@ -199,7 +212,6 @@ public class MainPanel extends JPanel {
         myTool=myToolPanel;
         myStatus=myStatusPanel;
         setLayout(null);
-
     }
     
     public void paintComponent(Graphics g) {
@@ -263,6 +275,8 @@ public class MainPanel extends JPanel {
                 g2.drawImage(img,postX+20,postY+4,Divide-40,Divide-12 ,this);
             }
         }
+        
+        repaint();
     }
     
     /// You can inherit from Adapter and avoid meaningless
@@ -659,6 +673,7 @@ public class MainPanel extends JPanel {
                 }
             }
             
+            repaint();
         }
         
         public void mouseEntered(MouseEvent e) {
@@ -991,11 +1006,11 @@ public class MainPanel extends JPanel {
 		MainPanel.local = local;
 	}
 
-	public static short getPlayers_turn() {
+	public static int getPlayers_turn() {
 		return players_turn;
 	}
 
-	public static void setPlayers_turn(short players_turn) {
+	public static void setPlayers_turn(int players_turn) {
 		MainPanel.players_turn = players_turn;
 	}
     

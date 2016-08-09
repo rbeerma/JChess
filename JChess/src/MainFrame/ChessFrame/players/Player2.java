@@ -18,7 +18,7 @@ public class Player2 implements Enumeration {
     public static Elephant BE1;
     public static Elephant BE2;
     public static Queen BQ;
-    private static King BK;
+    public static King BK;
     public static Soldier[] BS=new Soldier[8];
     private int choosenOne;
     private int inHand=-1;
@@ -1788,17 +1788,18 @@ public class Player2 implements Enumeration {
     
     public static String getSaveState() {
     	StringBuilder sb = new StringBuilder();
-    	sb.append("BC1:" + BC1.returnX() + ":" + BC1.returnY() + ":" + BC1.returnLife() + "\n");
-    	sb.append("BC2:" + BC2.returnX() + ":" + BC2.returnY() + ":" + BC2.returnLife() + "\n");
-    	sb.append("BH1:" + BH1.returnX() + ":" + BH1.returnY() + ":" + BH1.returnLife() + "\n");
-    	sb.append("BH2:" + BH2.returnX() + ":" + BH2.returnY() + ":" + BH2.returnLife() + "\n");
-    	sb.append("BE1:" + BE1.returnX() + ":" + BE1.returnY() + ":" + BE1.returnLife() + "\n");
-    	sb.append("BE2:" + BE2.returnX() + ":" + BE2.returnY() + ":" + BE2.returnLife() + "\n");
-    	sb.append("BQ:" + BQ.returnX() + ":" + BQ.returnY() + ":" + BQ.returnLife() + "\n");
-    	sb.append("BK:" + BK.returnX() + ":" + BK.returnY() + ":" + BK.returnLife() + "\n");
+    	sb.append("" + BC1.returnX() + BC1.returnY()
+    			+ BC2.returnX() + BC2.returnY()
+    			+ BH1.returnX() + BH1.returnY()
+    			+ BH2.returnX() + BH2.returnY()
+    			+ BE1.returnX() + BE1.returnY()
+    			+ BE2.returnX() + BE2.returnY()
+    			+ BQ.returnX() + BQ.returnY()
+    			+ BK.returnX() + BK.returnY()
+    			);
     	
     	for (int i=0; i<BS.length; i++) {
-    		sb.append("BS[" + i + "]:" + BS[i].returnX() + ":" + BS[i].returnY() + ":" + BS[i].returnLife() + "\n");
+    		sb.append("" + BS[i].returnX() + BS[i].returnY());
     	}
     	
     	return sb.toString();

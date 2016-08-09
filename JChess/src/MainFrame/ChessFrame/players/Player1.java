@@ -6,70 +6,8 @@ import MainFrame.ChessFrame.players.Pieces.Horse;
 import MainFrame.ChessFrame.players.Pieces.Queen;
 import MainFrame.ChessFrame.players.Pieces.Soldier;
 import MainFrame.ChessFrame.players.Pieces.King;
-import java.awt.Button;
-import java.awt.Canvas;
-import java.awt.Checkbox;
-import java.awt.CheckboxMenuItem;
-import java.awt.Choice;
-import java.awt.Dialog;
-import java.awt.Dimension;
-import java.awt.EventQueue;
-import java.awt.FileDialog;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Frame;
-import java.awt.HeadlessException;
 import java.awt.Image;
-import java.awt.Label;
-import java.awt.List;
-import java.awt.Menu;
-import java.awt.MenuBar;
-import java.awt.MenuItem;
-import java.awt.Panel;
 import java.awt.Point;
-import java.awt.PopupMenu;
-import java.awt.PrintJob;
-import java.awt.ScrollPane;
-import java.awt.Scrollbar;
-import java.awt.TextArea;
-import java.awt.TextField;
-import java.awt.Toolkit;
-import java.awt.Window;
-import java.awt.datatransfer.Clipboard;
-import java.awt.dnd.DragGestureEvent;
-import java.awt.dnd.InvalidDnDOperationException;
-import java.awt.dnd.peer.DragSourceContextPeer;
-import java.awt.im.InputMethodHighlight;
-import java.awt.image.BufferedImage;
-import java.awt.image.ColorModel;
-import java.awt.image.ImageObserver;
-import java.awt.image.ImageProducer;
-import java.awt.peer.ButtonPeer;
-import java.awt.peer.CanvasPeer;
-import java.awt.peer.CheckboxMenuItemPeer;
-import java.awt.peer.CheckboxPeer;
-import java.awt.peer.ChoicePeer;
-import java.awt.peer.DialogPeer;
-import java.awt.peer.FileDialogPeer;
-import java.awt.peer.FontPeer;
-import java.awt.peer.FramePeer;
-import java.awt.peer.LabelPeer;
-import java.awt.peer.ListPeer;
-import java.awt.peer.MenuBarPeer;
-import java.awt.peer.MenuItemPeer;
-import java.awt.peer.MenuPeer;
-import java.awt.peer.PanelPeer;
-import java.awt.peer.PopupMenuPeer;
-import java.awt.peer.ScrollPanePeer;
-import java.awt.peer.ScrollbarPeer;
-import java.awt.peer.TextAreaPeer;
-import java.awt.peer.TextFieldPeer;
-import java.awt.peer.WindowPeer;
-import java.io.File;
-import java.io.IOException;
-import java.net.URL;
-import java.util.Map;
-import java.util.Properties;
 
 public class Player1 {
     
@@ -1538,17 +1476,18 @@ public class Player1 {
     
     public static String getSaveState() {
     	StringBuilder sb = new StringBuilder();
-    	sb.append("WC1:" + WC1.returnX() + ":" + WC1.returnY() + ":" + WC1.returnLife() + "\n");
-    	sb.append("WC2:" + WC2.returnX() + ":" + WC2.returnY() + ":" + WC2.returnLife() + "\n");
-    	sb.append("WH1:" + WH1.returnX() + ":" + WH1.returnY() + ":" + WH1.returnLife() + "\n");
-    	sb.append("WH2:" + WH2.returnX() + ":" + WH2.returnY() + ":" + WH2.returnLife() + "\n");
-    	sb.append("WE1:" + WE1.returnX() + ":" + WE1.returnY() + ":" + WE1.returnLife() + "\n");
-    	sb.append("WE2:" + WE2.returnX() + ":" + WE2.returnY() + ":" + WE2.returnLife() + "\n");
-    	sb.append("WQ:" + WQ.returnX() + ":" + WQ.returnY() + ":" + WQ.returnLife() + "\n");
-    	sb.append("WK:" + WK.returnX() + ":" + WK.returnY() + ":" + WK.returnLife() + "\n");
+    	sb.append("" + WC1.returnX() + WC1.returnY()
+    			+ WC2.returnX() + WC2.returnY()
+    			+ WH1.returnX() + WH1.returnY()
+    			+ WH2.returnX() + WH2.returnY()
+    			+ WE1.returnX() + WE1.returnY()
+    			+ WE2.returnX() + WE2.returnY()
+    			+ WQ.returnX() + WQ.returnY()
+    			+ WK.returnX() + WK.returnY()
+    			);
     	
     	for (int i=0; i<WS.length; i++) {
-    		sb.append("WS[" + i + "]:" + WS[i].returnX() + ":" + WS[i].returnY() + ":" + WS[i].returnLife() + "\n");
+    		sb.append("" + WS[i].returnX() + WS[i].returnY());
     	}
     	
     	return sb.toString();

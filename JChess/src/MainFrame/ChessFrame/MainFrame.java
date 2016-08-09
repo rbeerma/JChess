@@ -1,20 +1,11 @@
 package MainFrame.ChessFrame;
-import java.awt.BorderLayout;
-import java.awt.Color;
 import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Toolkit;
-import javax.swing.BorderFactory;
 import javax.swing.JFrame;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
-import javax.swing.border.BevelBorder;
 import MainFrame.ChessMenuBar.Chess_MainMenuBar;
 import MainFrame.ChessFrame.ChatPanel;
 import MainFrame.ChessFrame.StatusPanel;
-import javax.swing.JScrollPane;
+import MainFrame.ChessFrame.players.Player1;
+import MainFrame.ChessFrame.players.Player2;
 
 
 public class MainFrame extends JFrame {
@@ -47,6 +38,16 @@ public class MainFrame extends JFrame {
     public void start_Again() {
         Mainpanel.start_Again();
         contentPane.add(Mainpanel);
+        
+        repaint();
+    }
+    
+    public void startLoadedGame(Player1 player1, Player2 player2, int local, int players_turn) {
+    	Mainpanel.startLoadedGame(player1, player2, local, players_turn);
+    	contentPane.add(Mainpanel);
+    	contentPane.validate();
+    	
+    	repaint();
     }
     
     public void start_As_Server() {
